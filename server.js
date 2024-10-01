@@ -9,4 +9,4 @@ injectMiddlewares(server);
 injectRoutes(server);
 startServer(server);
 
-export default server;
+server.listen(5000);
